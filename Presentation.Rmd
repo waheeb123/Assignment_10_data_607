@@ -1,21 +1,12 @@
 ---
-title: "Week 10 Assignment "
-author: "waheeb Algabri and Farhana Akther "
-output:
-  pdf_document: default
-  html_document:
-    highlight: pygments
-    theme: cerulean
-    toc: true
-    toc_float: true
-editor_options: 
-  chunk_output_type: console
+title: "assignment week 10 "
+author: "waheeb Algabri and Farhana Akther"
+date: "2023-03-31"
+output: powerpoint_presentation
 ---
 
-```{r global_options, include=FALSE}
-knitr::opts_chunk$set(eval = TRUE, message = FALSE, warning = FALSE)
-library(tidyverse)
-library(openintro)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
