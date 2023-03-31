@@ -2,12 +2,12 @@
 title: "DATA 607: Week 10 Assignment "
 author: "Waheeb Algabri and Farhana Akther"
 output:
+  pdf_document: default
   html_document:
     highlight: pygments
     theme: cerulean
     toc: true
     toc_float: true
-  pdf_document: default
 editor_options: 
   chunk_output_type: console
 ---
@@ -324,4 +324,4 @@ bondage_index %>%
 
 # Conclusion 
 
-This assignment has allowed us to explore the topic of sentiment analysis. We have successfully implemented and expanded upon the main example code from chapter 2 of the Text Mining with R book. We have used three different sentiment lexicons: ‘AFINN’, ‘bing’, and ‘nrc’ to analyze the sentiment of Jane Austen's novels. Further, by using the ‘gutenbergr’ library we have explored the “My Bondage and My Freedom" by Frederick Douglass. We have tidied the dataset with one-token-per-row by using the unnest_tokens () function. We have used our sentiment analysis with inner join to be able to find the most frequent positive words and most frequent negative words. From our findings, we can see the respective most frequent positive and negative words are **master** and **slave**. These two words are also look like the most common words using wordcloud. Moreover, we filter the ‘loughran’ sentiment lexicon to include only words with a “litigious" and “constraining" sentiment. The resulting data frame is then filtered to include only words from “bondage” and is counted using count () to show the frequency of words with a “litigious" and “constraining" sentiments. Form here we can see that the words associated with Litigious results is more then constraining.  
+This assignment has allowed us to explore the topic of sentiment analysis. We have successfully implemented and expanded upon the main example code from chapter 2 of the Text Mining with R book. We have used three different sentiment lexicons: ‘AFINN’, ‘bing’, and ‘nrc’ to analyze the sentiment of Jane Austen's novels. Further, by using the ‘gutenbergr’ library we have explored the “My Bondage and My Freedom" by Frederick Douglass. We have tidied the dataset with one-token-per-row by using the unnest_tokens () function. We have used our sentiment analysis with inner join to be able to find the most frequent positive words and most frequent negative words. From our findings, we can see the respective most frequent positive and negative words are **master** and **slave**. These two words are also look like the most common words using wordcloud. Moreover, we filter the ‘loughran’ sentiment lexicon to include only words with a “litigious" and “constraining" sentiment. The resulting data frame is then filtered to include only words from “bondage” and is counted using count () to show the frequency of words with a “litigious" and “constraining" sentiments.From here, we can see that the words associated with litigious results are more than constraining. 
