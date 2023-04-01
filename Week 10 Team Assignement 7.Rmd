@@ -2,12 +2,12 @@
 title: "DATA 607: Week 10 Assignment "
 author: "Waheeb Algabri and Farhana Akther"
 output:
-  pdf_document: default
   html_document:
     highlight: pygments
     theme: cerulean
     toc: true
     toc_float: true
+  pdf_document: default
 editor_options: 
   chunk_output_type: console
 ---
@@ -183,6 +183,8 @@ custom_stop_words <- bind_rows(tibble(word = c("well", "", "miss"),
 # Corpus 
 
 ***My Bondage and My Freedom* by Frederick Douglass**
+
+We looked for the book by its ID number in the project Gutenberg [ project Gutenberg](https://www.gutenberg.org)
 
 We will analyze text **My Bondage and My Freedom**, autobiographical slave narrative by Frederick Douglass. We will use the *gutenbergr* library to search and download it. 
 

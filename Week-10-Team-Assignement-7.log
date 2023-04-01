@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  31 MAR 2023 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.31)  1 APR 2023 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Week-10-Team-Assignement-7.tex
 (./Week-10-Team-Assignement-7.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (/Users/waheebalgabri/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2023-03-30> (/Users/waheebalgabri/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/Users/waheebalgabri/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
@@ -315,7 +315,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip54
 ) (/Users/waheebalgabri/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box54
 )
@@ -429,10 +429,10 @@ Type  H <return>  for immediate help.
 l.146 \end{verbatim}
                      
 Here is how much of TeX's memory you used:
- 10945 strings out of 477985
- 172608 string characters out of 5837904
- 1853388 words of memory out of 5000000
- 30989 multiletter control sequences out of 15000+600000
+ 10943 strings out of 477977
+ 172560 string characters out of 5837655
+ 1853666 words of memory out of 5000000
+ 30995 multiletter control sequences out of 15000+600000
  542862 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,6n,76p,331b,398s stack positions out of 10000i,1000n,20000p,200000b,200000s
